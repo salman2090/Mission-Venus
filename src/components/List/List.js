@@ -34,15 +34,10 @@ const List = (props) => {
             <div>
             <Card className="mt-5 ms-3" style={{ width: '18rem' }}>
             <Card.Body>
-                <h4>Added Persons: </h4>               
-                <ul>
+                <h4>Added Persons: </h4>                
                 {
-                    name.map(name => (
-                        <li className="fs-5 text-danger">{name}</li>
-                    )            
-                )
-                }
-                </ul>       
+                            name.map(name=>name + ' ')
+                }        
             </Card.Body>
             </Card>
              </div>
