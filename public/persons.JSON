@@ -1,0 +1,24 @@
+[
+    {"name":"Joseph M. Acaba","key":"1","age":54,"image":"https://alchetron.com/cdn/joseph-m-acaba-0594d801-e445-4a0c-b6e9-f87cd5fcf9a-resize-750.jpg","origin":"USA","position":"Pilot","wage":1500000},
+    
+    {"name":"Michael Barratt","key":"2","age":62,"image":"https://upload.wikimedia.org/wikipedia/commons/c/ce/Michael_R._Barratt_2010.jpg","origin":"USA","position":"Pilot","wage":1500000},
+    
+    {"name":"Kayla Barron","key":"3","age":34,"image":"https://starsunfolded.com/wp-content/uploads/2021/01/Kayla-Barron.jpg","origin":"USA","position":"Command Pilot","wage":1300000},
+    
+    {"name":"Bob Behnken","key":"4","age":51,"image":"https://cdn.mos.cms.futurecdn.net/XEeqQMqJjAHgPyMtx4VAid.jpg","origin":"USA","position":"Command Pilot","wage":1300000},
+    
+    {"name":"Eric Boe","key":"5","age":56,"image":"https://d.newsweek.com/en/full/1301392/gettyimages-1010302764.jpg","origin":"USA","position":"Commandar","wage":1200000},
+    
+    {"name":"Tracy Caldwell Dyson","key":"6","age":52,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-JYy5-MNmhvjvw5A6Ya7vcYX5AA0wF0F-kw&usqp=CAU","origin":"USA","position":"Flight Engineer","wage":1200000},
+    
+    {"name":"Andrew J. Feustel","key":"7","age":56,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQePvBysDahwx17eajR-PJ8HRV8-Fq9TP503g&usqp=CAU","origin":"USA","position":"Science Pilot","wage":1100000},
+    
+    {"name":"Douglas H. Wheelock","key":"8","age":61,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrPBdVoXWWVEANr7kuhnVJGBtkcCiiyVjFbA&usqp=CAU","origin":"USA","position":"Lunar Module Pilot","wage":1000000},
+    
+    {"name":"Shannon Walker","key":"9","age":56,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3uQVUfLiAYUZUOEfytZ2-vb2VH4NYdI8vDA&usqp=CAU","origin":"USA","position":"Dock Module Pilot","wage":1000000},
+    
+    {"name":"Barry E. Wilmore","key":"10","age":58,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHFiLkKrIXEMuXs3OE6xCxCry96xA0XCH-Q&usqp=CAU","origin":"USA","position":"Mission Specialist","wage":1200000},
+    
+    {"name":"Stephanie Wilson","key":"11","age":54,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXdZmQYh3hKGR49OidyWVItT-LXy1FGSZZuQ&usqp=CAU","origin":"USA","position":"Payload Commander","wage":1200000},
+    
+    {"name":"Sunita Williams","key":"12","age":56,"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzmG6MebiCJZh6w_nVu3UG0OJ58i_iqPOh6w&usqp=CAU","origin":"USA","position":"Operator","wage":1000000}]

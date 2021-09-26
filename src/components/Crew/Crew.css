@@ -1,0 +1,12 @@
+.crew-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: lightgray;
+}
+
+.person-container{
+    border-right: 1px solid maroon;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
