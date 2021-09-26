@@ -8,4 +8,4 @@ About the Project:
   
   ➼ The available astronouts and their wage based on their rank is shown on our UI.
   
-  ➼ We alloted an amount of budget for this mission and the user can choose their favourite astronouts and accumulate their total salary and compare to our budget on our    website.
+  ➼ We alloted an amount of budget for this mission and the user can choose their favourite astronouts and accumulate their total salary and compare to our budget on our website.
