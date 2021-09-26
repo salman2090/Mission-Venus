@@ -1,23 +1,35 @@
 import React from 'react';
+// import custom stylesheet
 import './Person.css';
+
+// import bootstrap stylesheet
 import '../Bootstrap/bootstrap.min.css';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+
+//import font awesome icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faPlusCircle, faPhone, faIdCard} from '@fortawesome/free-solid-svg-icons';
 
 
 const Person = (props) => {
-    console.log(props.person)
+    // destructuring info
     const{name, age, image, position,origin, wage} = props.person;
+
+    // icon info
+    const element = <FontAwesomeIcon icon={faPlusCircle} />
+    const icon1 = <FontAwesomeIcon icon={faPhone} />
+    const icon2 = <FontAwesomeIcon icon={faIdCard} />
+
     return (
         <div className="person">
-            {/* <h1>I'm a person</h1>
-            <h4>{name}</h4>
-            <img src={image} alt="" /> */}
             
+        {/* Person Details */}
+
         <CardGroup>
-            <Card className="m-3 mt-5 rounded">
-                <Card.Img variant="top" src={image} />
+            <Card className="m-3 mt-5 card-bg shadow p-3 mb-5 bg-body rounded">
+                <Card.Img variant="top " className="rounded-circle border border-1 border-dark" src={image} />
                 <Card.Body>
                 <Card.Title>Name: {name}</Card.Title>
                    
@@ -27,11 +39,11 @@ const Person = (props) => {
                     <h5>Salary: {wage}</h5>
                     <br/>
                         
-                    <Button variant="outline-dark">Secondary</Button>{' '}             
+                    <Button onClick={ () => props.handleAddToList(props.person)} variant="outline-dark" >{element} Add to List</Button>&emsp;&emsp;   
+                    <span>{icon1}</span>{' '}&emsp;
+                    <span>{icon2}</span>
+                         
                 </Card.Body>
-                <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer>
             </Card>
         </CardGroup>
   

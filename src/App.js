@@ -1,4 +1,7 @@
+// custom stylesheeet
 import './App.css';
+
+// import other component files
 import Crew from './components/Crew/Crew';
 import Header from './components/Header/Header';
 
